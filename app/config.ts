@@ -5,13 +5,15 @@ const config = {
   geoCodingApi: "https://nominatim.openstreetmap.org",
   routingApi: "https://router.project-osrm.org/route/v1",
   mapConfig: {
-    center: [3.110_97, 45.758_887],
+    // Coordenadas Universidad Adolfo Ibáñez -33.485982, -70.518233
+    center: [-70.518233, -33.485982],
     zoom: isMobile ? 17 : 18.5,
-    bearing: 60,
+    bearing: 0, // Sin rotación para empezar
     pitch: 40,
+    // Bounds que cubren el campus UAI
     maxBounds: [
-      [3.098_579_765_873_666, 45.753_206_988_746_97],
-      [3.120_672_060_142_396_7, 45.764_883_726_343_584],
+      [-70.520000, -33.490000], // Southwest
+      [-70.512000, -33.483000], // Northeast
     ],
   } as maplibregl.MapOptions,
   mapStyles: {
