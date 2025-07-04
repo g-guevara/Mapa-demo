@@ -8,7 +8,7 @@ const config = {
     // Coordenadas Universidad Adolfo Ibáñez -33.485982, -70.518233
     center: [-70.518233, -33.485982],
     zoom: isMobile ? 17 : 18.5,
-    bearing: 0, // Sin rotación para empezar
+    bearing: -270, // Sin rotación para empezar
     pitch: 40,
     // Bounds que cubren el campus UAI
     maxBounds: [
