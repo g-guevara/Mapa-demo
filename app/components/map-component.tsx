@@ -12,7 +12,7 @@ import DiscoveryPanel from "./discovery-panel/discovery-panel";
 import { FloorSelector } from "./floor-selector";
 import { FloorUpDownControl } from "./floor-up-down-control";
 import { IndoorMapGeoJSON } from "~/types/geojson";
-import DemoBanner from "./demo-banner";
+// import DemoBanner from "./demo-banner"; // ← ELIMINAR esta línea
 import OIMLogo from "../controls/oim-logo";
 import { Theme, useTheme } from "remix-themes";
 import "~/maplibre.css";
@@ -86,7 +86,7 @@ export default function MapComponent() {
       )}
 
       <div ref={mapContainer} className="size-full" />
-      <DemoBanner />
+      {/* <DemoBanner /> ← ELIMINAR esta línea */}
     </div>
   );
 }
