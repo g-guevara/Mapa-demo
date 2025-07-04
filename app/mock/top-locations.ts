@@ -3,7 +3,7 @@ import {
   FlaskConical,
   BriefcaseMedical,
   Users,
-  Coffee,
+  Navigation,
   Footprints,
 } from "lucide-react";
 
@@ -36,8 +36,8 @@ const topLocations = [
     colors: "bg-amber-100 text-amber-700 dark:bg-amber-700 dark:text-amber-100",
   },
   {
-    name: "Aula 102",
-    icon: Users,
+    name: "Pasillo Principal",
+    icon: Navigation,
     colors: "bg-slate-100 text-slate-700 dark:bg-slate-700 dark:text-slate-100",
   },
 ];
