@@ -15,7 +15,7 @@
         "properties": {
           "name": "Coffe Break",
           "alt_name": null,
-          "category": "meeting_room",
+          "category": "Comida",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -261,7 +261,7 @@
         "properties": {
           "name": "Sala de estudio 1-F",
           "alt_name": null,
-          "category": "classroom",
+          "category": "Sala de estudio",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -320,7 +320,7 @@
         "properties": {
           "name": "Baño",
           "alt_name": null,
-          "category": "classroom",
+          "category": "Baño",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -363,7 +363,7 @@
         "properties": {
           "name": "Baño",
           "alt_name": null,
-          "category": "classroom",
+          "category": "Baño",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -406,7 +406,7 @@
         "properties": {
           "name": "F-114",
           "alt_name": null,
-          "category": "classroom",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -453,7 +453,7 @@
         "properties": {
           "name": "F-104",
           "alt_name": null,
-          "category": "laboratory",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -500,7 +500,7 @@
         "properties": {
           "name": "F-105",
           "alt_name": null,
-          "category": "laboratory",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -547,7 +547,7 @@
         "properties": {
           "name": "F-106",
           "alt_name": null,
-          "category": "office",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -594,7 +594,7 @@
         "properties": {
           "name": "F-107",
           "alt_name": null,
-          "category": "office",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -641,7 +641,7 @@
         "properties": {
           "name": "F-108",
           "alt_name": null,
-          "category": "study_room",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -688,7 +688,7 @@
         "properties": {
           "name": "F-113",
           "alt_name": null,
-          "category": "classroom",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -735,7 +735,7 @@
         "properties": {
           "name": "F-112",
           "alt_name": null,
-          "category": "classroom",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -782,7 +782,7 @@
         "properties": {
           "name": "F-109",
           "alt_name": null,
-          "category": "office",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -829,7 +829,7 @@
         "properties": {
           "name": "F-111",
           "alt_name": null,
-          "category": "office",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -876,7 +876,7 @@
         "properties": {
           "name": "F-110",
           "alt_name": null,
-          "category": "study_room",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -923,7 +923,7 @@
         "properties": {
           "name": "F-102",
           "alt_name": null,
-          "category": "classroom",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -974,7 +974,7 @@
         "properties": {
           "name": "F-103",
           "alt_name": null,
-          "category": "classroom",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -1025,7 +1025,7 @@
         "properties": {
           "name": "F-100",
           "alt_name": null,
-          "category": "classroom",
+          "category": "Sala de clases",
           "restriction": null,
           "accessibility": null,
           "display_point": null,
@@ -1163,7 +1163,7 @@
         "properties": {
           "id": 1,
           "name": "Coffe Break",
-          "type": "meeting_room",
+          "type": "Comiida",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1193,7 +1193,7 @@
         "properties": {
           "id": 3,
           "name": "Sala de estudio 1-F",
-          "type": "classroom",
+          "type": "Sala de estudio",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1208,7 +1208,7 @@
         "properties": {
           "id": 4,
           "name": "Baño",
-          "type": "classroom",
+          "type": "Baño",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1223,7 +1223,7 @@
         "properties": {
           "id": 5,
           "name": "Baño",
-          "type": "classroom",
+          "type": "Baño",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1238,7 +1238,7 @@
         "properties": {
           "id": 6,
           "name": "F-114",
-          "type": "classroom",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1268,7 +1268,7 @@
         "properties": {
           "id": 8,
           "name": "F-105",
-          "type": "laboratory",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1283,7 +1283,7 @@
         "properties": {
           "id": 9,
           "name": "F-106",
-          "type": "office",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1298,7 +1298,7 @@
         "properties": {
           "id": 10,
           "name": "F-107",
-          "type": "office",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1313,7 +1313,7 @@
         "properties": {
           "id": 11,
           "name": "F-108",
-          "type": "study_room",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1328,7 +1328,7 @@
         "properties": {
           "id": 12,
           "name": "F-113",
-          "type": "classroom",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1343,7 +1343,7 @@
         "properties": {
           "id": 13,
           "name": "F-112",
-          "type": "classroom",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1358,7 +1358,7 @@
         "properties": {
           "id": 14,
           "name": "F-109",
-          "type": "office",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1373,7 +1373,7 @@
         "properties": {
           "id": 15,
           "name": "F-111",
-          "type": "office",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1388,7 +1388,7 @@
         "properties": {
           "id": 16,
           "name": "F-110",
-          "type": "study_room",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1403,7 +1403,7 @@
         "properties": {
           "id": 17,
           "name": "F-102",
-          "type": "classroom",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1418,7 +1418,7 @@
         "properties": {
           "id": 18,
           "name": "F-103",
-          "type": "classroom",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
@@ -1433,7 +1433,7 @@
         "properties": {
           "id": 19,
           "name": "F-100",
-          "type": "classroom",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
           "building_id": "UAI_001"
