@@ -1,11 +1,11 @@
 {
   "id": 1,
-  "name": "Universidad Adolfo Ibáñez",
-  "description": "Campus principal UAI",
-  "address": "Av. Diagonal Las Torres 2640, Peñalolén",
+  "name": "Centro Académico Santiago",
+  "description": "Edificio académico de 2 pisos",
+  "address": "Av. Providencia 1234, Santiago",
   "location": {
-    "latitude": -33.486556,
-    "longitude": -70.516389
+    "latitude": -33.4862,
+    "longitude": -70.5179
   },
   "indoor_map": {
     "type": "FeatureCollection",
@@ -13,44 +13,23 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Coffe Break",
-          "alt_name": null,
-          "category": "Comida",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
-          "feature_type": "unit",
+          "name": "Pasillo Principal - Piso 1",
+          "feature_type": "corridor",
           "level_id": 1,
-          "show": true,
-          "area": 0
+          "show": true
         },
         "geometry": {
           "coordinates": [
             [
-              [
-                -70.51790116328307,
-                -33.48641801938482
-              ],
-              [
-                -70.51792736222559,
-                -33.48644289202914
-              ],
-              [
-                -70.51784625135988,
-                -33.48654041384168
-              ],
-              [
-                -70.5177991701703,
-                -33.486459837815694
-              ],
-              [
-                -70.51785738302537,
-                -33.48639148865757
-              ],
-              [
-                -70.51790116328307,
-                -33.48641801938482
-              ]
+              [-70.5180, -33.4861],
+              [-70.5179, -33.4861],
+              [-70.5178, -33.4861],
+              [-70.5177, -33.4861],
+              [-70.5177, -33.4863],
+              [-70.5178, -33.4863],
+              [-70.5179, -33.4863],
+              [-70.5180, -33.4863],
+              [-70.5180, -33.4861]
             ]
           ],
           "type": "Polygon"
@@ -60,196 +39,20 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Edificio F",
-          "alt_name": null,
-          "category": null,
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
-          "feature_type": "corridor",
+          "name": "Aula 101",
+          "category": "Sala de clases",
+          "feature_type": "unit",
           "level_id": 1,
-          "show": true,
-          "area": 0
+          "show": true
         },
         "geometry": {
           "coordinates": [
             [
-              [
-                -70.51809003493968,
-                -33.48556691965726
-              ],
-              [
-                -70.51809702160911,
-                -33.48559411257966
-              ],
-              [
-                -70.51799804379361,
-                -33.48561450726582
-              ],
-              [
-                -70.5180527727036,
-                -33.485874781886764
-              ],
-              [
-                -70.51808188382547,
-                -33.48589614767961
-              ],
-              [
-                -70.518065581597,
-                -33.48591071526285
-              ],
-              [
-                -70.51807839049108,
-                -33.485994236022734
-              ],
-              [
-                -70.51810517272334,
-                -33.48601463061469
-              ],
-              [
-                -70.51809003493968,
-                -33.486034054031805
-              ],
-              [
-                -70.51810051494415,
-                -33.48611660350253
-              ],
-              [
-                -70.51812729717642,
-                -33.48612825753938
-              ],
-              [
-                -70.5181075016136,
-                -33.48614768093102
-              ],
-              [
-                -70.5181191460622,
-                -33.48623314379927
-              ],
-              [
-                -70.51815058607431,
-                -33.48625256716733
-              ],
-              [
-                -70.51816696647663,
-                -33.486255636351714
-              ],
-              [
-                -70.51815066074889,
-                -33.48636774880543
-              ],
-              [
-                -70.51813602876379,
-                -33.48640876136459
-              ],
-              [
-                -70.51808758354144,
-                -33.486440373655334
-              ],
-              [
-                -70.51794335456438,
-                -33.48644531658487
-              ],
-              [
-                -70.51793667358906,
-                -33.48642888169422
-              ],
-              [
-                -70.51786204352626,
-                -33.48638635325622
-              ],
-              [
-                -70.51793506460047,
-                -33.48628272299698
-              ],
-              [
-                -70.5180247513526,
-                -33.4862785084482
-              ],
-              [
-                -70.51801900380124,
-                -33.48619429705111
-              ],
-              [
-                -70.5180341415849,
-                -33.48617390250143
-              ],
-              [
-                -70.5180224971363,
-                -33.48609620893458
-              ],
-              [
-                -70.51799920823841,
-                -33.48608843957472
-              ],
-              [
-                -70.51801783935645,
-                -33.48607775670212
-              ],
-              [
-                -70.51800735935264,
-                -33.48601365944443
-              ],
-              [
-                -70.51798872823461,
-                -33.48600686124756
-              ],
-              [
-                -70.5180027015728,
-                -33.48599714953645
-              ],
-              [
-                -70.51799105712419,
-                -33.48592139815488
-              ],
-              [
-                -70.51795845266729,
-                -33.485907801746144
-              ],
-              [
-                -70.51798639934432,
-                -33.485887407129
-              ],
-              [
-                -70.5179666037815,
-                -33.48580291509226
-              ],
-              [
-                -70.5179456437732,
-                -33.4857893186649
-              ],
-              [
-                -70.51795728822249,
-                -33.48576892401988
-              ],
-              [
-                -70.51794331488365,
-                -33.485696085962545
-              ],
-              [
-                -70.51791886154095,
-                -33.48567666246968
-              ],
-              [
-                -70.5179339993246,
-                -33.485653354274035
-              ],
-              [
-                -70.5179246837649,
-                -33.48562519019444
-              ],
-              [
-                -70.51785714596153,
-                -33.48563004607098
-              ],
-              [
-                -70.51786063929589,
-                -33.48560188198381
-              ],
-              [
-                -70.51809003493968,
-                -33.48556691965726
-              ]
+              [-70.5180, -33.4860],
+              [-70.5179, -33.4860],
+              [-70.5179, -33.4861],
+              [-70.5180, -33.4861],
+              [-70.5180, -33.4860]
             ]
           ],
           "type": "Polygon"
@@ -259,56 +62,20 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Sala de estudio 1-F",
-          "alt_name": null,
-          "category": "Sala de estudio",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
+          "name": "Aula 102",
+          "category": "Sala de clases",
           "feature_type": "unit",
           "level_id": 1,
-          "show": true,
-          "area": 0
+          "show": true
         },
         "geometry": {
           "coordinates": [
             [
-              [
-                -70.51818195036438,
-                -33.48587815454602
-              ],
-              [
-                -70.51808423161533,
-                -33.48588726960578
-              ],
-              [
-                -70.518061730463,
-                -33.48586956795762
-              ],
-              [
-                -70.51805397006514,
-                -33.48580898763935
-              ],
-              [
-                -70.51800680907277,
-                -33.48561913585031
-              ],
-              [
-                -70.51810451300214,
-                -33.485600576458204
-              ],
-              [
-                -70.51811525118949,
-                -33.4856714697684
-              ],
-              [
-                -70.51817165136693,
-                -33.48575408223929
-              ],
-              [
-                -70.51818195036438,
-                -33.48587815454602
-              ]
+              [-70.5178, -33.4860],
+              [-70.5177, -33.4860],
+              [-70.5177, -33.4861],
+              [-70.5178, -33.4861],
+              [-70.5178, -33.4860]
             ]
           ],
           "type": "Polygon"
@@ -318,40 +85,20 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Baño",
-          "alt_name": null,
-          "category": "Baño",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
+          "name": "Cafetería",
+          "category": "Comida",
           "feature_type": "unit",
           "level_id": 1,
-          "show": true,
-          "area": 0
+          "show": true
         },
         "geometry": {
           "coordinates": [
             [
-              [
-                -70.51793444228781,
-                -33.48627530198494
-              ],
-              [
-                -70.51792850253818,
-                -33.48624419188328
-              ],
-              [
-                -70.51801458976756,
-                -33.486237169124266
-              ],
-              [
-                -70.51801675229578,
-                -33.48626765346088
-              ],
-              [
-                -70.51793444228781,
-                -33.48627530198494
-              ]
+              [-70.5180, -33.4863],
+              [-70.5178, -33.4863],
+              [-70.5178, -33.4864],
+              [-70.5180, -33.4864],
+              [-70.5180, -33.4863]
             ]
           ],
           "type": "Polygon"
@@ -361,40 +108,20 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Baño",
-          "alt_name": null,
-          "category": "Baño",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
+          "name": "Escaleras",
+          "category": "Circulación",
           "feature_type": "unit",
           "level_id": 1,
-          "show": true,
-          "area": 0
+          "show": true
         },
         "geometry": {
           "coordinates": [
             [
-              [
-                -70.5180148821795,
-                -33.48623099587783
-              ],
-              [
-                -70.5179324195409,
-                -33.486237636747084
-              ],
-              [
-                -70.51792406339766,
-                -33.4862067812255
-              ],
-              [
-                -70.5180099979957,
-                -33.48619875080497
-              ],
-              [
-                -70.5180148821795,
-                -33.48623099587783
-              ]
+              [-70.5177, -33.4863],
+              [-70.5177, -33.4864],
+              [-70.51765, -33.4864],
+              [-70.51765, -33.4863],
+              [-70.5177, -33.4863]
             ]
           ],
           "type": "Polygon"
@@ -404,44 +131,23 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "F-114",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
-          "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
+          "name": "Pasillo Principal - Piso 2",
+          "feature_type": "corridor",
+          "level_id": 2,
+          "show": true
         },
         "geometry": {
           "coordinates": [
             [
-              [
-                -70.5179214815295,
-                -33.48619783959026
-              ],
-              [
-                -70.51791691290855,
-                -33.48615147032919
-              ],
-              [
-                -70.51801976226118,
-                -33.48614165774468
-              ],
-              [
-                -70.51802117448555,
-                -33.48617529238931
-              ],
-              [
-                -70.51800896558548,
-                -33.48619193483605
-              ],
-              [
-                -70.5179214815295,
-                -33.48619783959026
-              ]
+              [-70.5180, -33.4861],
+              [-70.5179, -33.4861],
+              [-70.5178, -33.4861],
+              [-70.5177, -33.4861],
+              [-70.5177, -33.4863],
+              [-70.5178, -33.4863],
+              [-70.5179, -33.4863],
+              [-70.5180, -33.4863],
+              [-70.5180, -33.4861]
             ]
           ],
           "type": "Polygon"
@@ -451,44 +157,20 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "F-104",
-          "alt_name": null,
+          "name": "Aula 201",
           "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
           "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
+          "level_id": 2,
+          "show": true
         },
         "geometry": {
           "coordinates": [
             [
-              [
-                -70.51792523268074,
-                -33.48563152441905
-              ],
-              [
-                -70.51792857736218,
-                -33.485653605941025
-              ],
-              [
-                -70.51791153332182,
-                -33.48567193198461
-              ],
-              [
-                -70.5178512621547,
-                -33.48567592079315
-              ],
-              [
-                -70.51785677674559,
-                -33.48563755632296
-              ],
-              [
-                -70.51792523268074,
-                -33.48563152441905
-              ]
+              [-70.5180, -33.4860],
+              [-70.5179, -33.4860],
+              [-70.5179, -33.4861],
+              [-70.5180, -33.4861],
+              [-70.5180, -33.4860]
             ]
           ],
           "type": "Polygon"
@@ -498,44 +180,20 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "F-105",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
+          "name": "Laboratorio",
+          "category": "Laboratorio",
           "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
+          "level_id": 2,
+          "show": true
         },
         "geometry": {
           "coordinates": [
             [
-              [
-                -70.51791119606924,
-                -33.485679051913145
-              ],
-              [
-                -70.51793858176718,
-                -33.485700961883744
-              ],
-              [
-                -70.51794420009517,
-                -33.48572870749125
-              ],
-              [
-                -70.51785833322846,
-                -33.48574129675885
-              ],
-              [
-                -70.51785196629844,
-                -33.48568056953294
-              ],
-              [
-                -70.51791119606924,
-                -33.485679051913145
-              ]
+              [-70.5178, -33.4860],
+              [-70.5177, -33.4860],
+              [-70.5177, -33.4861],
+              [-70.5178, -33.4861],
+              [-70.5178, -33.4860]
             ]
           ],
           "type": "Polygon"
@@ -545,44 +203,20 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "F-106",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
+          "name": "Biblioteca",
+          "category": "Biblioteca",
           "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
+          "level_id": 2,
+          "show": true
         },
         "geometry": {
           "coordinates": [
             [
-              [
-                -70.51794211730407,
-                -33.485733649863974
-              ],
-              [
-                -70.51794931995451,
-                -33.48577185511315
-              ],
-              [
-                -70.517936456316,
-                -33.485789740678335
-              ],
-              [
-                -70.51787219560241,
-                -33.48580477640207
-              ],
-              [
-                -70.51786339380983,
-                -33.48574666722515
-              ],
-              [
-                -70.51794211730407,
-                -33.485733649863974
-              ]
+              [-70.5180, -33.4863],
+              [-70.5178, -33.4863],
+              [-70.5178, -33.4864],
+              [-70.5180, -33.4864],
+              [-70.5180, -33.4863]
             ]
           ],
           "type": "Polygon"
@@ -592,484 +226,25 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "F-107",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
+          "name": "Escaleras",
+          "category": "Circulación",
           "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
+          "level_id": 2,
+          "show": true
         },
         "geometry": {
           "coordinates": [
             [
-              [
-                -70.51793594302848,
-                -33.485795698414165
-              ],
-              [
-                -70.51795791607276,
-                -33.48580991352765
-              ],
-              [
-                -70.517964590616,
-                -33.485844632196134
-              ],
-              [
-                -70.51788151068413,
-                -33.48585692781149
-              ],
-              [
-                -70.51787394114173,
-                -33.48580695395141
-              ],
-              [
-                -70.51793594302848,
-                -33.485795698414165
-              ]
+              [-70.5177, -33.4863],
+              [-70.5177, -33.4864],
+              [-70.51765, -33.4864],
+              [-70.51765, -33.4863],
+              [-70.5177, -33.4863]
             ]
           ],
           "type": "Polygon"
         },
         "id": 10
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "F-108",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
-          "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                -70.51796704029825,
-                -33.485851458473725
-              ],
-              [
-                -70.51797528434504,
-                -33.48588719248969
-              ],
-              [
-                -70.5179486620688,
-                -33.48590770838998
-              ],
-              [
-                -70.5178889190097,
-                -33.48591518373334
-              ],
-              [
-                -70.51788325622265,
-                -33.485859105358216
-              ],
-              [
-                -70.51796704029825,
-                -33.485851458473725
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        },
-        "id": 11
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "F-113",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
-          "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                -70.51801808858558,
-                -33.48613530126484
-              ],
-              [
-                -70.51791818657176,
-                -33.486143271688206
-              ],
-              [
-                -70.51791309611106,
-                -33.48610292214717
-              ],
-              [
-                -70.51799024736917,
-                -33.486093089819214
-              ],
-              [
-                -70.51801616228994,
-                -33.48610909875843
-              ],
-              [
-                -70.51801808858558,
-                -33.48613530126484
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        },
-        "id": 12
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "F-112",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
-          "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                -70.51798471307713,
-                -33.48609026576094
-              ],
-              [
-                -70.51791723346602,
-                -33.48609652370423
-              ],
-              [
-                -70.5179131589591,
-                -33.486062881416736
-              ],
-              [
-                -70.51800325164129,
-                -33.486050833771
-              ],
-              [
-                -70.51800617250854,
-                -33.48607011718849
-              ],
-              [
-                -70.51798471307713,
-                -33.48609026576094
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        },
-        "id": 13
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "F-109",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
-          "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                -70.51794962119986,
-                -33.485912531748006
-              ],
-              [
-                -70.51798005445873,
-                -33.485924657497186
-              ],
-              [
-                -70.51798084849692,
-                -33.48595012756485
-              ],
-              [
-                -70.51789867092468,
-                -33.48596048948802
-              ],
-              [
-                -70.51789069166938,
-                -33.48592129602003
-              ],
-              [
-                -70.51794962119986,
-                -33.485912531748006
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        },
-        "id": 14
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "F-111",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
-          "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                -70.51797277561857,
-                -33.48601145526166
-              ],
-              [
-                -70.51799829886579,
-                -33.48601813579119
-              ],
-              [
-                -70.51800236268105,
-                -33.48604496490316
-              ],
-              [
-                -70.51791691533174,
-                -33.486053967743395
-              ],
-              [
-                -70.51791359209923,
-                -33.48601854270428
-              ],
-              [
-                -70.51797277561857,
-                -33.48601145526166
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        },
-        "id": 15
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "F-110",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
-          "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                -70.51797389718452,
-                -33.48600537456134
-              ],
-              [
-                -70.51791206816841,
-                -33.48600848178605
-              ],
-              [
-                -70.51790659672525,
-                -33.485965616950715
-              ],
-              [
-                -70.5179895255719,
-                -33.48595347229174
-              ],
-              [
-                -70.51799361076932,
-                -33.48599392781812
-              ],
-              [
-                -70.51797389718452,
-                -33.48600537456134
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        },
-        "id": 16
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "F-102",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
-          "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                -70.51819231515265,
-                -33.48600581426381
-              ],
-              [
-                -70.51820059725806,
-                -33.486112879617146
-              ],
-              [
-                -70.51813157971357,
-                -33.48612208953443
-              ],
-              [
-                -70.51810811374904,
-                -33.486114030857394
-              ],
-              [
-                -70.51810259234519,
-                -33.4860368977666
-              ],
-              [
-                -70.51811501550362,
-                -33.48601387295092
-              ],
-              [
-                -70.51819231515265,
-                -33.48600581426381
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        },
-        "id": 17
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "F-103",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
-          "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                -70.51817851164347,
-                -33.48588953883712
-              ],
-              [
-                -70.51818679374884,
-                -33.48599660433417
-              ],
-              [
-                -70.51811777620516,
-                -33.48600581426381
-              ],
-              [
-                -70.5180915495383,
-                -33.48599199936964
-              ],
-              [
-                -70.51807774602986,
-                -33.48591141244424
-              ],
-              [
-                -70.51808602813445,
-                -33.48589644629196
-              ],
-              [
-                -70.51817851164347,
-                -33.48588953883712
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        },
-        "id": 18
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "F-100",
-          "alt_name": null,
-          "category": "Sala de clases",
-          "restriction": null,
-          "accessibility": null,
-          "display_point": null,
-          "feature_type": "unit",
-          "level_id": 1,
-          "show": true,
-          "area": 0
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                -70.51820283834992,
-                -33.48612110653988
-              ],
-              [
-                -70.51821112045529,
-                -33.48623738165575
-              ],
-              [
-                -70.51815314571853,
-                -33.486246591558434
-              ],
-              [
-                -70.51812691905165,
-                -33.48622932298944
-              ],
-              [
-                -70.51811587624476,
-                -33.486146433805324
-              ],
-              [
-                -70.51813520115702,
-                -33.48613377017356
-              ],
-              [
-                -70.51820283834992,
-                -33.48612110653988
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        },
-        "id": 19
       }
     ]
   },
@@ -1081,73 +256,48 @@
         "geometry": {
           "type": "LineString",
           "coordinates": [
-            [-70.51802000, -33.48565000],
-            [-70.51802500, -33.48580000],
-            [-70.51803000, -33.48600000],
-            [-70.51804000, -33.48620000]
+            [-70.5179, -33.4861],
+            [-70.5178, -33.4861],
+            [-70.5177, -33.4861]
           ]
         },
-        "properties": {}
+        "properties": { "level_id": 1 }
       },
       {
         "type": "Feature",
         "geometry": {
           "type": "LineString",
           "coordinates": [
-            [-70.51789000, -33.48565000],
-            [-70.51795000, -33.48565000],
-            [-70.51802000, -33.48565000]
+            [-70.5179, -33.4862],
+            [-70.5178, -33.4862],
+            [-70.5177, -33.4862]
           ]
         },
-        "properties": {}
+        "properties": { "level_id": 1 }
       },
       {
         "type": "Feature",
         "geometry": {
           "type": "LineString",
           "coordinates": [
-            [-70.51789000, -33.48570000],
-            [-70.51795000, -33.48570000],
-            [-70.51802000, -33.48570000]
+            [-70.5179, -33.4861],
+            [-70.5178, -33.4861],
+            [-70.5177, -33.4861]
           ]
         },
-        "properties": {}
+        "properties": { "level_id": 2 }
       },
       {
         "type": "Feature",
         "geometry": {
           "type": "LineString",
           "coordinates": [
-            [-70.51790000, -33.48576000],
-            [-70.51796000, -33.48576000],
-            [-70.51802500, -33.48580000]
+            [-70.5179, -33.4862],
+            [-70.5178, -33.4862],
+            [-70.5177, -33.4862]
           ]
         },
-        "properties": {}
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [-70.51792000, -33.48582000],
-            [-70.51798000, -33.48585000],
-            [-70.51802500, -33.48590000]
-          ]
-        },
-        "properties": {}
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [-70.51815000, -33.48590000],
-            [-70.51810000, -33.48590000],
-            [-70.51805000, -33.48590000]
-          ]
-        },
-        "properties": {}
+        "properties": { "level_id": 2 }
       }
     ]
   },
@@ -1157,291 +307,126 @@
       {
         "type": "Feature",
         "geometry": {
-          "coordinates": [-70.51787000, -33.48648000],
+          "coordinates": [-70.51795, -33.48605],
           "type": "Point"
         },
         "properties": {
           "id": 1,
-          "name": "Coffe Break",
-          "type": "Comiida",
+          "name": "Aula 101",
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
-          "building_id": "UAI_001"
+          "building_id": "CAS_001"
         }
       },
       {
         "type": "Feature",
         "geometry": {
-          "coordinates": [-70.51802000, -33.48590000],
+          "coordinates": [-70.51775, -33.48605],
           "type": "Point"
         },
         "properties": {
           "id": 2,
-          "name": "Edificio F",
-          "type": "corridor",
+          "name": "Aula 102", 
+          "type": "Sala de clases",
           "floor": 1,
           "metadata": {},
-          "building_id": "UAI_001"
+          "building_id": "CAS_001"
         }
       },
       {
         "type": "Feature",
         "geometry": {
-          "coordinates": [-70.51813000, -33.48575000],
+          "coordinates": [-70.5179, -33.48635],
           "type": "Point"
         },
         "properties": {
           "id": 3,
-          "name": "Sala de estudio 1-F",
-          "type": "Sala de estudio",
+          "name": "Cafetería",
+          "type": "Comida",
           "floor": 1,
           "metadata": {},
-          "building_id": "UAI_001"
+          "building_id": "CAS_001"
         }
       },
       {
         "type": "Feature",
         "geometry": {
-          "coordinates": [-70.51797000, -33.48625000],
+          "coordinates": [-70.51767, -33.48635],
           "type": "Point"
         },
         "properties": {
           "id": 4,
-          "name": "Baño",
-          "type": "Baño",
+          "name": "Escaleras",
+          "type": "Circulación",
           "floor": 1,
           "metadata": {},
-          "building_id": "UAI_001"
+          "building_id": "CAS_001"
         }
       },
       {
         "type": "Feature",
         "geometry": {
-          "coordinates": [-70.51797000, -33.48621000],
+          "coordinates": [-70.51795, -33.48605],
           "type": "Point"
         },
         "properties": {
           "id": 5,
-          "name": "Baño",
-          "type": "Baño",
-          "floor": 1,
+          "name": "Aula 201",
+          "type": "Sala de clases",
+          "floor": 2,
           "metadata": {},
-          "building_id": "UAI_001"
+          "building_id": "CAS_001"
         }
       },
       {
         "type": "Feature",
         "geometry": {
-          "coordinates": [-70.51797000, -33.48617000],
+          "coordinates": [-70.51775, -33.48605],
           "type": "Point"
         },
         "properties": {
           "id": 6,
-          "name": "F-114",
-          "type": "Sala de clases",
-          "floor": 1,
+          "name": "Laboratorio",
+          "type": "Laboratorio", 
+          "floor": 2,
           "metadata": {},
-          "building_id": "UAI_001"
+          "building_id": "CAS_001"
         }
       },
       {
         "type": "Feature",
         "geometry": {
-          "coordinates": [-70.51789000, -33.48565000],
+          "coordinates": [-70.5179, -33.48635],
           "type": "Point"
         },
         "properties": {
           "id": 7,
-          "name": "-104",
-          "type": "laboratory",
-          "floor": 1,
+          "name": "Biblioteca",
+          "type": "Biblioteca",
+          "floor": 2,
           "metadata": {},
-          "building_id": "UAI_001"
+          "building_id": "CAS_001"
         }
       },
       {
         "type": "Feature",
         "geometry": {
-          "coordinates": [-70.51789000, -33.48570000],
+          "coordinates": [-70.51767, -33.48635],
           "type": "Point"
         },
         "properties": {
           "id": 8,
-          "name": "F-105",
-          "type": "Sala de clases",
-          "floor": 1,
+          "name": "Escaleras",
+          "type": "Circulación",
+          "floor": 2,
           "metadata": {},
-          "building_id": "UAI_001"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "coordinates": [-70.51790000, -33.48576000],
-          "type": "Point"
-        },
-        "properties": {
-          "id": 9,
-          "name": "F-106",
-          "type": "Sala de clases",
-          "floor": 1,
-          "metadata": {},
-          "building_id": "UAI_001"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "coordinates": [-70.51792000, -33.48582000],
-          "type": "Point"
-        },
-        "properties": {
-          "id": 10,
-          "name": "F-107",
-          "type": "Sala de clases",
-          "floor": 1,
-          "metadata": {},
-          "building_id": "UAI_001"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "coordinates": [-70.51793000, -33.48588000],
-          "type": "Point"
-        },
-        "properties": {
-          "id": 11,
-          "name": "F-108",
-          "type": "Sala de clases",
-          "floor": 1,
-          "metadata": {},
-          "building_id": "UAI_001"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "coordinates": [-70.51796000, -33.48612000],
-          "type": "Point"
-        },
-        "properties": {
-          "id": 12,
-          "name": "F-113",
-          "type": "Sala de clases",
-          "floor": 1,
-          "metadata": {},
-          "building_id": "UAI_001"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "coordinates": [-70.51795000, -33.48608000],
-          "type": "Point"
-        },
-        "properties": {
-          "id": 13,
-          "name": "F-112",
-          "type": "Sala de clases",
-          "floor": 1,
-          "metadata": {},
-          "building_id": "UAI_001"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "coordinates": [-70.51794000, -33.48593000],
-          "type": "Point"
-        },
-        "properties": {
-          "id": 14,
-          "name": "F-109",
-          "type": "Sala de clases",
-          "floor": 1,
-          "metadata": {},
-          "building_id": "UAI_001"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "coordinates": [-70.51796000, -33.48603000],
-          "type": "Point"
-        },
-        "properties": {
-          "id": 15,
-          "name": "F-111",
-          "type": "Sala de clases",
-          "floor": 1,
-          "metadata": {},
-          "building_id": "UAI_001"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "coordinates": [-70.51795000, -33.48598000],
-          "type": "Point"
-        },
-        "properties": {
-          "id": 16,
-          "name": "F-110",
-          "type": "Sala de clases",
-          "floor": 1,
-          "metadata": {},
-          "building_id": "UAI_001"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "coordinates": [-70.51815000, -33.48606000],
-          "type": "Point"
-        },
-        "properties": {
-          "id": 17,
-          "name": "F-102",
-          "type": "Sala de clases",
-          "floor": 1,
-          "metadata": {},
-          "building_id": "UAI_001"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "coordinates": [-70.51813000, -33.48594000],
-          "type": "Point"
-        },
-        "properties": {
-          "id": 18,
-          "name": "F-103",
-          "type": "Sala de clases",
-          "floor": 1,
-          "metadata": {},
-          "building_id": "UAI_001"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "coordinates": [-70.51816000, -33.48618000],
-          "type": "Point"
-        },
-        "properties": {
-          "id": 19,
-          "name": "F-100",
-          "type": "Sala de clases",
-          "floor": 1,
-          "metadata": {},
-          "building_id": "UAI_001"
+          "building_id": "CAS_001"
         }
       }
     ]
   },
-  "levels": null,
+  "levels": [1, 2],
   "costum_metadata": null,
   "owner_id": null
 }

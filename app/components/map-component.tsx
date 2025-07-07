@@ -12,7 +12,6 @@ import DiscoveryPanel from "./discovery-panel/discovery-panel";
 import { FloorSelector } from "./floor-selector";
 import { FloorUpDownControl } from "./floor-up-down-control";
 import { IndoorMapGeoJSON } from "~/types/geojson";
-// import DemoBanner from "./demo-banner"; // ← ELIMINAR esta línea
 import OIMLogo from "../controls/oim-logo";
 import { Theme, useTheme } from "remix-themes";
 import "~/maplibre.css";
@@ -22,12 +21,18 @@ export default function MapComponent() {
   const [theme] = useTheme();
 
   const setMapInstance = useMapStore((state) => state.setMapInstance);
+  
   const indoorMapLayer = useMemo(
     () =>
       new IndoorMapLayer(
         building.indoor_map as IndoorMapGeoJSON,
         theme as string,
       ),
+    [theme],
+  );
+
+  const poisLayer = useMemo(
+    () => new POIsLayer(building.pois as GeoJSON.GeoJSON, theme as string),
     [theme],
   );
 
@@ -43,11 +48,14 @@ export default function MapComponent() {
 
     map.on("load", () => {
       try {
-        // map.addLayer(new Tile3dLayer());
         map.addLayer(indoorMapLayer);
-        map.addLayer(
-          new POIsLayer(building.pois as GeoJSON.GeoJSON, theme as string),
-        );
+        map.addLayer(poisLayer);
+        
+        // Establecer el piso inicial (piso 1) para ambas capas
+        setTimeout(() => {
+          indoorMapLayer.setFloorLevel(1);
+          poisLayer.setFloorLevel(1);
+        }, 100);
       } catch (error) {
         console.error("Failed to initialize map layers:", error);
       }
@@ -73,20 +81,19 @@ export default function MapComponent() {
     return () => {
       map.remove();
     };
-  }, [indoorMapLayer, setMapInstance, theme]);
+  }, [indoorMapLayer, poisLayer, setMapInstance, theme]);
 
   return (
     <div className="flex size-full flex-col">
       <DiscoveryPanel />
       {process.env.NODE_ENV === "development" && (
         <>
-          <FloorSelector indoorMapLayer={indoorMapLayer} />
-          <FloorUpDownControl indoorMapLayer={indoorMapLayer} />
+          <FloorSelector indoorMapLayer={indoorMapLayer} poisLayer={poisLayer} />
+          <FloorUpDownControl indoorMapLayer={indoorMapLayer} poisLayer={poisLayer} />
         </>
       )}
 
       <div ref={mapContainer} className="size-full" />
-      {/* <DemoBanner /> ← ELIMINAR esta línea */}
     </div>
   );
 }

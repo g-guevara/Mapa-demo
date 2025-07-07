@@ -1,19 +1,21 @@
 import { useEffect, useState } from "react";
 import useFloorStore from "~/stores/floor-store";
 import IndoorMapLayer from "~/layers/indoor-map-layer";
+import POIsLayer from "~/layers/pois-layer";
 
 interface FloorSelectorProps {
   indoorMapLayer: IndoorMapLayer;
+  poisLayer: POIsLayer;
 }
 
-export function FloorSelector({ indoorMapLayer }: FloorSelectorProps) {
+export function FloorSelector({ indoorMapLayer, poisLayer }: FloorSelectorProps) {
   const { currentFloor, setCurrentFloor } = useFloorStore();
-  const [availableFloors, setAvailableFloors] = useState<number[]>([0]);
+  const [availableFloors, setAvailableFloors] = useState<number[]>([1]);
 
   useEffect(() => {
     const loadFloors = async () => {
       const floors = await indoorMapLayer.getAvailableFloors();
-      setAvailableFloors(floors.sort((a, b) => b - a)); // Sort descending
+      setAvailableFloors(floors.sort((a, b) => a - b)); // Sort ascending: 1, 2
     };
     loadFloors();
   }, [indoorMapLayer]);
@@ -21,8 +23,12 @@ export function FloorSelector({ indoorMapLayer }: FloorSelectorProps) {
   const handleFloorChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const floor = Number.parseInt(event.target.value);
     setCurrentFloor(floor);
+    
+    // Actualizar AMBAS capas
     indoorMapLayer.setFloorLevel(floor);
+    poisLayer.setFloorLevel(floor);
   };
+  
   return (
     <div className="absolute right-2 top-2 z-10">
       <select
@@ -32,7 +38,7 @@ export function FloorSelector({ indoorMapLayer }: FloorSelectorProps) {
       >
         {availableFloors.map((floor) => (
           <option key={floor} value={floor}>
-            Floor {floor}
+            Piso {floor}
           </option>
         ))}
       </select>

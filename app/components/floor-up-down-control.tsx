@@ -1,18 +1,22 @@
 import { NavigationControl } from "maplibre-gl";
 import { useEffect } from "react";
 import IndoorMapLayer from "~/layers/indoor-map-layer";
+import POIsLayer from "~/layers/pois-layer";
 import useFloorStore from "~/stores/floor-store";
 import useMapStore from "~/stores/use-map-store";
 
 interface FloorUpDownControlProps {
   indoorMapLayer: IndoorMapLayer;
+  poisLayer: POIsLayer;
 }
 
 export function FloorUpDownControl({
   indoorMapLayer,
+  poisLayer,
 }: FloorUpDownControlProps) {
   const map = useMapStore((state) => state.mapInstance);
   const { currentFloor, setCurrentFloor } = useFloorStore();
+
   useEffect(() => {
     const floorControl = new NavigationControl({
       showCompass: false,
@@ -28,9 +32,12 @@ export function FloorUpDownControl({
     upButton.innerHTML = "&#8593;"; // Up arrow
     upButton.addEventListener("click", () => {
       const nextFloor = currentFloor + 1;
-      if (nextFloor <= 2) {
+      if (nextFloor <= 2) { // Máximo piso 2
         setCurrentFloor(nextFloor);
+        
+        // Actualizar AMBAS capas
         indoorMapLayer.setFloorLevel(nextFloor);
+        poisLayer.setFloorLevel(nextFloor);
       }
     });
 
@@ -40,8 +47,12 @@ export function FloorUpDownControl({
     downButton.innerHTML = "&#8595;"; // Down arrow
     downButton.addEventListener("click", () => {
       const nextFloor = currentFloor - 1;
-      if (nextFloor >= 0) {
+      if (nextFloor >= 1) { // Mínimo piso 1
         setCurrentFloor(nextFloor);
+        
+        // Actualizar AMBAS capas
+        indoorMapLayer.setFloorLevel(nextFloor);
+        poisLayer.setFloorLevel(nextFloor);
       }
     });
 
@@ -51,7 +62,7 @@ export function FloorUpDownControl({
     return () => {
       map?.removeControl(floorControl);
     };
-  }, [map, currentFloor, setCurrentFloor, indoorMapLayer]);
+  }, [map, currentFloor, setCurrentFloor, indoorMapLayer, poisLayer]);
 
   return null;
 }
